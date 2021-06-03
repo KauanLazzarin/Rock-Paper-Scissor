@@ -1,0 +1,59 @@
+.chooseContainer {
+    width: 100%;
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    background-image: url('./../../assets/bg-triangle.svg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.firstOptions {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.secondOptions {
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-top:5vh
+}
+
+.optionButton {
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    box-shadow: 1px 1px 10px 1px black;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.optionButton:hover {
+    transform: rotate(50deg);
+}
+
+.optionButton img {
+    padding: 4vw;
+    border-radius:50%;
+    background-color:rgb(233, 232, 232);
+}
+
+.firstOptions div:first-of-type {
+    background-color: var(--blue);
+}
+
+.firstOptions div:last-of-type {
+    background-color: rgb(233, 157, 15);
+}
+
+.secondOptions div {
+    background-color:rgb(250, 37, 37);
+}

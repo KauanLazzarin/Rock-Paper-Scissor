@@ -8,7 +8,7 @@ export default function Score () {
 
             <div>
                 <span>S C O R E</span>
-                <strong>12</strong>
+                <strong>00</strong>
             </div>
         </header>
     )
