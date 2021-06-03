@@ -1,0 +1,42 @@
+.scoreContainer {
+    width: 90%;
+    margin: 5vh auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vw;
+    border: 5px solid var(--outline-grey);
+    border-radius:10px;
+}
+
+.scoreContainer img {
+    width: 30%;
+    min-width: 40px;
+}
+
+.scoreContainer div {
+    width: 14vw;
+    height:12vh;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.scoreContainer div span {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--blue);
+    font-family: 'Barlow Semi Condensed', condensed;
+}
+
+.scoreContainer div strong {
+    font-size: 3.5rem;
+    font-family: 'Barlow Semi Condensed', condensed;
+    font-weight:700;
+    color: var(--dark-grey);
+}

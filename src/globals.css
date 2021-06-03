@@ -1,0 +1,30 @@
+:root {
+    --dark-blue: #1f3756;
+    --very-dark-blue: #141539;
+    --dark-grey: #3b4363;
+    --blue: #2a46c0;
+    --outline-grey: #606e85;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+body {
+    background: rgb(31,55,86);
+    background: linear-gradient(180deg, rgba(31,55,86,1) 0%, rgba(20,21,57,1) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
