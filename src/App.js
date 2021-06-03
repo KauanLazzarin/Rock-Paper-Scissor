@@ -1,11 +1,13 @@
 import ChooseScreen from "./components/choose-screen/ChooseScreen";
 import Score from "./components/score/Score";
+import GameContextProvider from "./contexts/GameContext";
 
-export default function App() {
+export default function App () {
+
   return (
-    <div className="App">
+    <GameContextProvider>
       <Score />
       <ChooseScreen />
-    </div>
+    </GameContextProvider>
   );
 }
