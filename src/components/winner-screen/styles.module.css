@@ -1,0 +1,33 @@
+.screenContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.chooses {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10vw;
+}
+
+.chooses div {
+    height: 24vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius:50%;
+    text-align: center;
+}
+
+.chooses div:first-of-type {
+    background-color: yellow;
+}
+
+.chooses div:last-of-type {
+    background-color: red;
+}

@@ -1,0 +1,24 @@
+.option {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 30vw;
+    height: 30vw;
+    min-width: 120px;
+    min-height:120px;
+    padding: 3vw;
+    border-radius:50%;
+    background: rgb(235,190,23);
+background: linear-gradient(180deg, rgba(235,190,23,1) 46%, rgba(236,129,14,1) 100%);
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.363);
+}
+
+.imageBox {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 96%;
+    height: 96%;
+    border-radius:50%;
+    background: rgb(223, 222, 222);
+}
