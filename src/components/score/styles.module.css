@@ -7,6 +7,11 @@
     padding: 5vw;
     border: 5px solid var(--outline-grey);
     border-radius:10px;
+    opacity: 0;
+    transform: translateX(-10vw);
+    animation-name: slide;
+    animation-duration: .6s;
+    animation-fill-mode: forwards;
 }
 
 .scoreContainer img {
@@ -39,4 +44,11 @@
     font-family: 'Barlow Semi Condensed', condensed;
     font-weight:700;
     color: var(--dark-grey);
+}
+
+@keyframes slide{
+    to {
+        opacity: 1;
+        transform: initial;
+    }
 }

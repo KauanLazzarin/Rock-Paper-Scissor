@@ -14,12 +14,29 @@
     width: 100%;
     display: flex;
     justify-content:space-around;
+    opacity: 0;
+    transform: translateY(40px);
+    animation-name: slide;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
 }
 
 .secondOptions {
     width: 100%;
     display: flex;
-    align-items:center;
+    align-items:center; 
     justify-content:center;
-    margin-top:5vh
+    margin-top:5vh;
+    opacity: 0;
+    transform: translateY(-40px);
+    animation-name: slide;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide{
+    to {
+        opacity: 1;
+        transform: initial;
+    }
 }
