@@ -6,28 +6,50 @@
     flex-direction:column;
 }
 
-.chooses {
-    width: 90%;
+.chooses,
+.smallTexts {
+    width: 100%;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
 }
 
-.chooses div {
-    height: 24vh;
+.smallTexts span {
+    margin-top:3vh;
+    font-size:18px;
+    font-family: 'Barlow Semi Condensed';
+    color: white;
+    font-weight:600;
+}
+
+.winner {
+    margin-top:15vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border-radius:50%;
+}
+
+.winner h2 {
+    font-size:60px;
+    font-family: 'Barlow Semi Condensed';
+    color: white;
+    font-weight:600;
+}
+
+.winner button {
+    width: 40%;
+    min-width: 150px;
+    padding: 15px 0;
+    margin-top: 4vh;
+    border-radius:10px;
+    font-size:20px;
+    font-family: 'Barlow Semi Condensed';
+    color: var(--very-dark-blue);
+    font-weight:600;
+    letter-spacing: 2px;
     text-align: center;
-}
-
-.chooses div:first-of-type {
-    background-color: yellow;
-}
-
-.chooses div:last-of-type {
-    background-color: red;
 }

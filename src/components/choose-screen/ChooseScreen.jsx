@@ -22,6 +22,10 @@ export default function ChooseScreen () {
                 <RockButton />
             </div>
 
+            {
+                gameContext.playerMoveComponent
+            }
+
         </main>
     )
 };
